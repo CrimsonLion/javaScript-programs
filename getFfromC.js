@@ -1,0 +1,5 @@
+const multiplyByNineFifths = celsius => celsius * (9/5);
+
+const getFahrenheit = celsius => multiplyByNineFifths(celsius) + 32;
+
+console.log('The temperature is ' + getFahrenheit(15) + '°F');
